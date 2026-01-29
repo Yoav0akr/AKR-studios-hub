@@ -1,0 +1,15 @@
+{
+  "name": "akr-services-hub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "YAKR",
+  "license": "ISC",
+  "description": "Pagina web de AKR services hub",
+  "dependencies": {
+    "mongodb": "^5.7.0"
+  }
+}
