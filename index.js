@@ -13,7 +13,7 @@ const btn = document.getElementById("btn");
       document.getElementById("correo").addEventListener("submit", async (e) => {
     e.preventDefault();
     const datos = Object.fromEntries(new FormData(e.target));
-    const res = await fetch("./API/mongoDB", {
+    const res = await fetch("./api/mongoDB", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(datos),
